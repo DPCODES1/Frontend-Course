@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    font-family: 'Open Sans';
+    color: rgb(44,41,44);
+    background-color: rgb(247,239,247);
+}
+
+#main-header {
+    background-color: rgb(140,0,255);
+    color: white;
+    padding: 20px 8px;
+    text-align: center;
+}
+
+.btn {
+    font: inherit;
+    padding: 5px 15px;
+    background-color: rgb(140,0,255);
+    border: none;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-alt {
+    background-color: transparent;
+    border-color: transparent;
+    color: rgb(140,0,255);
+}
+
+.btn:hover {
+    background-color: rgb(79,10,190);
+}
+
+.btn-alt:hover {
+    background-color: rgb(226,188,255);
+}

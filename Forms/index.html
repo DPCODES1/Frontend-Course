@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Forms</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body> 
+    <form method="get">
+      <label for="text">Your name</label>
+      <input id="text" type="text" placeholder="Deepak" name="name" />
+      <label for="num">Your Age</label>
+      <input id="num" type="number" step="2" max="20" name="age" />
+      <label for="pass">Your password</label>
+      <input id="pass" type="password" name="pass" />
+      <label for="email">Your Email</label>
+      <input id="email" type="email" name="email" />
+      <label for="dob">Your DOB</label>
+      <input id="dob" type="date" name="dob" />
+      <label for="message">Your message</label>
+      <textarea ]id="message" name="message"></textarea>
+      <label for="color">Your Favorite Color</label>
+      <select id="color" name="color">
+        <option value="red">Red</option>
+        <option value="blue">Blue</option>
+      </select>
+      <div>
+        <fieldset>
+          <legend>How we should verify Your account?</legend>
+        <h2>Hello World</h2>
+        </fieldset>
+      </div>
+      <div class="for-inline">
+          <input type="radio" id="message1" name="verify" value="text-message" />
+          <label for="message1">Via Message</label>
+      </div>
+      <div class="for-inline">
+        <input type="radio" id="message2" name="verify" value="Call" />
+        <label for="message1">Via Call</label>
+      </div>
+
+      <div class="for-inline">
+        <input type="checkbox" name="email" id="email2" value="Email" />
+        <label for="email2">Verify Via Email</label>
+      </div>
+
+      <div class="for-inline">
+        <input type="checkbox" name="email" id="call2" value="call" />
+        <label for="call2">Verify Via Call</label>
+      </div>
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>

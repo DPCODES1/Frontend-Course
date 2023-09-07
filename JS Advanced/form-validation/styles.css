@@ -1,0 +1,11 @@
+form {
+    padding: 20px 10px;
+    background-color: rgb(165, 165, 0);
+    text-align: center;
+}
+
+input,label {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+}
