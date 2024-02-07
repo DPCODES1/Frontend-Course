@@ -1,0 +1,131 @@
+body {
+    font-family: 'Quicksand';
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 60px;
+    position: absolute;
+    width: 90%;
+    left: 0;
+    right: 0;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+header ul li {
+    margin: 0 10px;
+}
+
+header ul li a {
+    border-radius: 6px;
+}
+
+header a {
+    text-decoration: none;
+    color: rgb(255,251,0);
+    font-size: 20px;
+    padding: 12px;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.2); 
+}
+
+
+#page-logo a {
+    font-family: 'Oleo Script';
+    color: rgb(245,243,160);
+    text-shadow: 1px 1px 2px rgb(0,0,0);
+    font-size: 50px;
+}
+
+header ul li a:hover {
+    background-color: rgb(255,251,0);
+    color: rgb(77,77,77);
+}
+
+#hero {
+    height: 800px;
+    background-image: url('images/places/ocean.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+#hero-content {
+    position: absolute;
+    top: 25%;
+    left: 35%;
+    width: 500px;
+    background-color: rgba(0,0,0,0.5);
+    text-align: center;
+    padding: 20px 40px;
+    color: white;
+    border-radius: 7px;
+}
+
+#hero-content a {
+    text-decoration: none;
+    color: rgb(255,251,0);
+    font-size: 15px;
+    padding: 12px;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.2); 
+    border-radius: 6px;
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+
+#hero-content a:hover {
+    background-color: rgb(255,251,0);
+    color: rgb(77,77,77);
+}
+
+#highlights {
+    text-align: center;
+    padding: 24px;
+    background: linear-gradient(45deg,rgb(227,255,253),rgb(202,243,240));
+}
+
+#destinations {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.destination img{
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50px;
+}
+
+.destination {
+    margin: 0 10px;
+}
+footer {
+    background-color: black;
+}
+
+footer ul {
+    margin: 0;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 10px; 
+}
+
+footer img {
+    width: 100px;
+    margin: 0 10px;
+}
